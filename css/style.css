@@ -281,7 +281,8 @@ hr {
 
 
 .section-heading h2 {
-	font-size: 40px;
+    font-size: 40px;
+    margin-bottom: 1px;
 }
 .section-heading i {
 	margin-bottom: 1px;
