@@ -49,8 +49,8 @@
 --- General sections
 ============================ */
 .home-section {
-    padding-top: 40px;
-    padding-bottom: 110px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 	display:block;
     position:relative;
     z-index:120;
