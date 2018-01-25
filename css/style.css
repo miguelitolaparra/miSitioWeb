@@ -288,6 +288,10 @@ hr {
     position:relative;
     z-index:120;
 }
+.section-heading {
+	margin-top:20px;
+	margin-bottom:20px;
+}
 
 
 .section-heading h2 {
