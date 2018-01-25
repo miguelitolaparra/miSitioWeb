@@ -11,6 +11,11 @@
 <!-- Politica de cookies-->
   <link href="css/cookies.css" rel="stylesheet" type="text/css">
 
+   <!-- Imagenes de diplomas-->
+  <!--<link rel="stylesheet" href="css/bootstrap.css">-->
+  <link href="css/responsive-slider.css" rel="stylesheet">
+  <link  href="css/font-awesome.min.css" rel="stylesheet" >
+  <link  href="css/bootstrap-3.2.0.min.css" rel="stylesheet" >
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
@@ -24,6 +29,8 @@
   <!-- Stilo de las barra de codigo -->
   <link href="css/styleBarras.css" rel="stylesheet">
   <!-- / Stilo de las barra de codigo -->
+
+ 
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
@@ -156,12 +163,28 @@
         </div>
       </div>
     </div>
-		<div class="container">		
-			<div class="row">			
-				<div class="col-md-6">
-					<img src="img/estudio.jpg" alt="" class="img-responsive" />		  
-				</div>
-				
+		<div class="container">	
+			<div class="row">		
+          <div class="row-slider">
+              <div class="col-lg-6 mar-bot30">
+               <div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
+                  <div class="slides" data-group="slides">
+                  
+              
+                      <div class="slide-body" data-group="slide">
+                        <img alt="" class="img-responsive" src="img/estudio.jpg" width="90%" height="250" />
+                        <img alt="" class="img-responsive" src="img/iphone.jpg" width="90%" height="350" />
+                        <img alt="" class="img-responsive" src="img/header2.jpg" width="90%" height="350" />
+  
+                      </div>
+                  
+                    <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left fa-2x"></i></a>
+                    <a class="slider-control right" href="#" data-jump="next"><i class="fa fa-angle-right fa-2x"></i></a>
+  
+                  </div>
+                </div>
+              </div>
+        	<!--listado de lenguages-->
 				<div class="col-md-6">		
 					<p>Algunas de mis habilidades en el desarrollo web...</p>			
 					<div class="progress progress-striped active">
@@ -187,63 +210,7 @@
 				</div>
 			</div>		
 		</div>
-	
-
-      <!--<div class="row">
-        <div class="col-lg-2 col-lg-offset-5">
-          <hr class="marginbot-50">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="wow bounceInUp" data-wow-delay="0.2s">
-            <div class="team boxed-grey">
-              <div class="inner">
-                <h5>Anna Hanaceck</h5>
-                <p class="subtitle">Pixel Crafter</p>
-                <div class="avatar"><img src="img/team/1.jpg" alt="" class="img-responsive img-circle" /></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-         <div class="wow bounceInUp" data-wow-delay="0.5s">
-            <div class="team boxed-grey">
-              <div class="inner">
-                <h5>Maura Daniels</h5>
-                <p class="subtitle">Ruby on Rails</p>
-                <div class="avatar"><img src="img/team/2.jpg" alt="" class="img-responsive img-circle" /></div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="wow bounceInUp" data-wow-delay="0.8s">
-            <div class="team boxed-grey">
-              <div class="inner">
-                <h5>Jack Briane</h5>
-                <p class="subtitle">jQuery Ninja</p>
-                <div class="avatar"><img src="img/team/3.jpg" alt="" class="img-responsive img-circle" /></div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="wow bounceInUp" data-wow-delay="1s">
-            <div class="team boxed-grey">
-              <div class="inner">
-                <h5>Tom Petterson</h5>
-                <p class="subtitle">Typographer</p>
-                <div class="avatar"><img src="img/team/4.jpg" alt="" class="img-responsive img-circle" /></div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>-->
-    </div>
+  </div>
   </section>
   <!-- /Section: about -->
   <!-- Section: services -->
@@ -463,6 +430,13 @@
   <!-- Custom Theme JavaScript -->
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
+
+  <!--imagenes de diplomas-->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min-3.1.0.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/responsive-slider.js"></script>
 
 </body>
 
